@@ -25,5 +25,10 @@ button {
   color: var(--colorGreen200);
   background-color: var(--colorGreen600);
   height: 50px;
+  margin-top: 25px;
+  cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--colorGrey900);
+}

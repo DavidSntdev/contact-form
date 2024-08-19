@@ -1,0 +1,30 @@
+@media (min-width: 1000px) {
+  body {
+    justify-content: center;
+    padding: 0px;
+  }
+  main {
+    width: 700px;
+  }
+
+  .names {
+    display: flex;
+    gap: 20px;
+  }
+  .name {
+    width: 318px;
+  }
+
+  .typeLabel {
+    width: 338px;
+  }
+
+  .inputsType {
+    display: flex;
+    gap: 20px;
+  }
+
+  #txtMessage {
+    height: 125px;
+  }
+}

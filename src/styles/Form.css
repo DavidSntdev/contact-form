@@ -7,10 +7,24 @@ form {
 input {
   border: 1px solid var(--colorGrey500);
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .inputInfos {
   height: 50px;
+  padding: 0px 10px;
+}
+
+.inputInfos:hover {
+  border: 1px solid var(--colorGreen600);
+}
+
+#txtMessage:hover {
+  border: 1px solid var(--colorGreen600);
+}
+
+#lblCheck:hover {
+  cursor: pointer;
 }
 
 label {
@@ -23,15 +37,22 @@ label {
   flex-direction: column;
   padding: 15px 0px;
 }
-
 #txtMessage {
   height: 200px;
+  padding: 10px;
+  border-radius: 7px;
+  resize: none;
+  border: 1px solid var(--colorGrey500);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 #check {
   display: flex;
   place-items: center;
   padding: 15px 0px;
+  padding-bottom: 0px;
 }
 
 input[type="checkbox"] {
@@ -65,4 +86,10 @@ input[type="checkbox"]:checked::after {
 #lblCheck {
   padding-left: 10px;
   padding-bottom: 0px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 15px;
 }
