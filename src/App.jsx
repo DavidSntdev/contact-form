@@ -1,9 +1,13 @@
 import "./App.css";
+import Form from "./components/Form";
 
 function App() {
   return (
     <>
-      <main></main>
+      <main>
+        <h1>Contact US</h1>
+        <Form />
+      </main>
     </>
   );
 }
