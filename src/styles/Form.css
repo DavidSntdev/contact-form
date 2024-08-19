@@ -1,0 +1,68 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 0px;
+}
+input {
+  border: 1px solid var(--colorGrey500);
+  border-radius: 7px;
+}
+
+.inputInfos {
+  height: 50px;
+}
+
+label {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+#txtMessage {
+  height: 200px;
+}
+
+#check {
+  display: flex;
+  place-items: center;
+  padding: 15px 0px;
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--colorWhite);
+  border: 1px solid var(--colorGrey500);
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--colorGreen600);
+  accent-color: red;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "\2714";
+  font-size: 10px;
+  position: absolute;
+  left: 4px;
+  width: 6px;
+  height: 12px;
+  border-width: 0 3px 3px 0;
+  color: white;
+}
+
+#lblCheck {
+  padding-left: 10px;
+  padding-bottom: 0px;
+}
